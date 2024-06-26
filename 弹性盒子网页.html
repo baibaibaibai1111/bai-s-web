@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: rgb(210, 210, 210);
+        }
+        * {
+            
+            
+        }
+        .flex{
+            display: flex;
+        }
+        .baise{
+            background-color:white;
+        }
+        .flex1{
+            flex:1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .mg8{
+            margin-right: 8px;
+        }
+        .mg8l{
+            margin-left: 8px;
+        }
+        
+        .mg15{
+            margin-top: 15px;
+        }
+        .mg8a{
+            margin-left: ;
+        }
+    </style>
+</head>
+<body class="flex">
+    <div style="width: 200px; z-index: 2;" class=" column baise">
+        <!--这是侧边栏-->
+        <div style="padding: 15px; align-items: center;text-align:center ;border-bottom: 1px solid black;">
+            <img src="E:\屏幕截图(105).png" 
+            width="70px"
+            height="70px"
+            alt="">
+        </div>
+        <!--这是头像框-->
+        <div style="height: 100px; background-color: rgb(251, 251, 251);"></div>
+        <!--这是导航栏-->
+    </div>
+    
+    <div class="flex1 flex column">
+        <!--这是主区域-->
+        <div style="height: 104px; z-index: 1;border-bottom: 1px solid black;" class="baise"></div>
+         <!--这是头部栏-->
+         <div style=overflow:auto class="flex1 flex">
+            <!--这是左区-->
+            <div style="flex:3;" class="column ">
+                <!--这是数据区-->
+                <div class="mg15 flex">
+                    <!--这里是四个数据块-->
+                    <div style="height: 130px;" class="flex1 mg8l mg8 baise">
+                        <img src="E:\微信图片_20240221200614.jpg"
+                        height="130px"
+                        width="auto"
+                        alt="">
+                    </div>
+                    <div style="height: 130px;" class="flex1 mg8 baise"></div>
+                    <div style="height: 130px;" class="flex1 mg8 baise"></div>
+                    <div style="height: 130px;" class="flex1 mg8 baise"></div>
+                </div>
+                <!--这里是展示栏-->
+                <div style="height: 160px;" class="mg15 mg8 mg8l baise" ></div>
+                <div style="height: 160px;" class="mg15 mg8 mg8l baise"></div>
+                <div style="height: 160px;" class="mg15 mg8 mg8l baise"></div>
+                <div style="height: 160px;" class="mg15 mg8 mg8l baise"></div>
+            </div>
+            
+            <div style="flex:1;" class="column">
+                <div style="height: 160px;
+                background-image: url(E:\微信图片_202312082056421.jpg)" class="mg15 mg8l baise">
+                    
+                </div>
+                <div style="height: 300px;
+                background-image: url(E:\微信图片_202312082056421.jpg)
+                " class="mg15 mg8l  baise"></div>
+            </div>
+            <!--这是右区-->
+         </div>
+         
+         <div></div>
+        <!--这是四个方框-->
+         </div>
+    </div>
+</body>
+</html>
